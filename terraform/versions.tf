@@ -10,8 +10,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-kjetilsblog-dev"
-    storage_account_name = "st3rneuaikir"
+    resource_group_name  = "rg-terraform-dev"
+    storage_account_name = "st3rnestterraform17"
     container_name       = "tfstate"
     key                  = "kjetilsblog-dev"
   }
