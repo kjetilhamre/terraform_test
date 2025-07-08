@@ -11,7 +11,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "rg-terraform-dev"
-    storage_account_name = "st3rnestterraform17"
+    storage_account_name = "stterraform17"
     container_name       = "tfstate"
     key                  = "kjetilsblog-dev"
   }
